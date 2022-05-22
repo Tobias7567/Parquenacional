@@ -17,7 +17,7 @@
 
         emailjs.sendForm(serviceID, templateID, this).then(
           () => {
-            btn.value = "Send Email";
+            btn.value = "Enviar consulta";
             Swal.fire({
               position: "top-end",
               icon: "success",
